@@ -1,8 +1,13 @@
-import './App.js';
+import Button from './Button.js';
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <>
+    <Button title="Incrementar Botão 1"></Button>
+    <Button title="Incrementar Botão 2"></Button>
+    <Button title="Incrementar Botão 3"></Button>
+    <Button title="Incrementar Botão 4"></Button>
+    </>
   );
 }
 
